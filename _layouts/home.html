@@ -17,7 +17,7 @@
   <link rel="image_src" href="//flyghtzone.com/img/flyghtzone-card.gif">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
 
@@ -36,10 +36,10 @@
 <div class="smart-bar alert bg-primary text-center small" role="alert">
   <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span></button>
   <div class="hidden-xs">
-    <p>Get notified when LIMITED DISCOUNT PRE-ORDER begins&nbsp;&nbsp;&nbsp;&nbsp;<a href="#getit" class="page-scroll btn btn-white">YES PLEASE!</a></p>
+    <p>Get notified when LIMITED DISCOUNT PRE-ORDER begins&nbsp;&nbsp;&nbsp;&nbsp;<a href="/#getit" class="page-scroll btn btn-white">YES PLEASE!</a></p>
   </div>
   <div class="visible-xs">
-    <p class="small">Get notified when LIMITED DISCOUNT PRE-ORDER begins&nbsp;&nbsp;&nbsp;&nbsp;<a href="#getit" class="page-scroll btn btn-white btn-sm">YES PLEASE!</a></p>
+    <p class="small">Get notified when LIMITED DISCOUNT PRE-ORDER begins&nbsp;&nbsp;&nbsp;&nbsp;<a href="/#getit" class="page-scroll btn btn-white btn-sm">YES PLEASE!</a></p>
   </div>
 </div>
 
@@ -54,13 +54,13 @@
           <h2>THIS IS <strong>DRONE RACING</strong></h2>
           <p>Immerse yourself in our fleet of first-person-view drones, coming soon to Chattanooga, TN.</p>
           <p>
-            <a href="#" class="btn btn-default btn-lg" data-toggle="modal" data-target=".drone-race-video" data-src="https://www.youtube-nocookie.com/embed/bOWkkoczEPQ">Play Video</a>
-            <a href="#getit" class="page-scroll btn btn-default btn-lg">Keep me in the loop</a>
+            <a href="/#" class="btn btn-default btn-lg" data-toggle="modal" data-target=".drone-race-video" data-src="https://www.youtube-nocookie.com/embed/bOWkkoczEPQ">Play Video</a>
+            <a href="/#getit" class="page-scroll btn btn-default btn-lg">Keep me in the loop</a>
           </p>
           <div class="container-fluid">
             <div class="row text-center">
               <div class="col-md-8 col-md-offset-2">
-                <img src="assets/img/equipment-feature.png" class="img-responsive img-centered" alt="">
+                <img src="{{ '/assets/img/equipment-feature.png' | relative_url }}" class="img-responsive img-centered" alt="">
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@
         <h1>What is Flyght Zone?</h1>
         <p>IT'S ABOUT DRONE RACING - Strap on a headset and race your friends with our fleet of first-person-view (FPV) drones!<br />
         Our plan is to open the first indoor drone raceway right here in Chattanooga.</p>
-        <p><a href="#getit" class="page-scroll btn btn-default btn-lg">I want. How do i get in?</a></p>
+        <p><a href="/#getit" class="page-scroll btn btn-default btn-lg">I want. How do i get in?</a></p>
         <!--<hr class="colored">-->
       </div>
     </div>
@@ -179,7 +179,7 @@
         <div class="carousel-inner" role="listbox">
           <div class="item active">
             <div class="col-sm-4 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-2 hidden-xs">
-              <img src="assets/img/testimonials/blardo.jpg" class="img-responsive img-circle"/>
+              <img src="{{ '/assets/img/testimonials/blardo.jpg' | relative_url }}" class="img-responsive img-circle"/>
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
               <blockquote>
@@ -193,7 +193,7 @@
           </div>
           <div class="item">
             <div class="col-sm-4 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-2 hidden-xs">
-              <img src="assets/img/testimonials/vuexl-vx1.jpg" class="img-responsive img-circle"/>
+              <img src="{{ '/assets/img/testimonials/vuexl-vx1.jpg' | relative_url }}" class="img-responsive img-circle"/>
             </div>
             <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0">
               <blockquote>
@@ -225,16 +225,16 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-6 col-sm-3">
-        <img src="assets/img/sponsors/family-youth-and-development-logo.png" class="img-responsive">
+        <img src="{{ '/assets/img/sponsors/family-youth-and-development-logo.png' | relative_url }}" class="img-responsive">
       </div>
       <div class="col-xs-6 col-sm-3">
-        <img src="assets/img/sponsors/chattanooga-public-library-logo.png" class="img-responsive">
+        <img src="{{ '/assets/img/sponsors/chattanooga-public-library-logo.png' | relative_url }}" class="img-responsive">
       </div>
       <div class="col-xs-6 col-sm-3">
-        <img src="assets/img/sponsors/immersion-rc-logo.png" class="img-responsive">
+        <img src="{{ '/assets/img/sponsors/immersion-rc-logo.png' | relative_url }}" class="img-responsive">
       </div>
       <div class="col-xs-6 col-sm-3">
-        <img src="assets/img/sponsors/fatshark-logo.png" class="img-responsive">
+        <img src="{{ '/assets/img/sponsors/fatshark-logo.png' | relative_url }}" class="img-responsive">
       </div>
     </div>
   </div>
@@ -288,7 +288,7 @@
       <div class="panel panel-default ">
         <div class="panel-heading" role="tab">
           <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question1" aria-expanded="true" aria-controls="question1">Q: When do you open?</a>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="/#question1" aria-expanded="true" aria-controls="question1">Q: When do you open?</a>
           </h4>
         </div>
         <div id="question1" class="panel-collapse collapse in">
@@ -302,7 +302,7 @@
       <div class="panel panel-default ">
         <div class="panel-heading" role="tab">
           <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question3" aria-expanded="true" aria-controls="question3">Q: Where are you located?</a>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="/#question3" aria-expanded="true" aria-controls="question3">Q: Where are you located?</a>
           </h4>
         </div>
         <div id="question3" class="panel-collapse collapse">
@@ -316,7 +316,7 @@
       <div class="panel panel-default ">
         <div class="panel-heading" role="tab">
           <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question2" aria-expanded="true" aria-controls="question2">Q: How long is each race?</a>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="/#question2" aria-expanded="true" aria-controls="question2">Q: How long is each race?</a>
           </h4>
         </div>
         <div id="question2" class="panel-collapse collapse">
@@ -330,7 +330,7 @@
       <div class="panel panel-default">
         <div class="panel-heading" role="tab">
           <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question0" aria-expanded="true" aria-controls="question0">Q: What will the admission price be?</a>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="/#question0" aria-expanded="true" aria-controls="question0">Q: What will the admission price be?</a>
           </h4>
         </div>
         <div id="question0" class="panel-collapse collapse" role="tabpanel" aria-label="">
@@ -344,7 +344,7 @@
       <div class="panel panel-default ">
         <div class="panel-heading" role="tab">
           <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question4" aria-expanded="true" aria-controls="question4">Q: Do I need ro register with the FAA?</a>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="/#question4" aria-expanded="true" aria-controls="question4">Q: Do I need ro register with the FAA?</a>
           </h4>
         </div>
         <div id="question4" class="panel-collapse collapse">
@@ -359,7 +359,7 @@
       <div class="panel panel-default ">
         <div class="panel-heading" role="tab">
           <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question5" aria-expanded="true" aria-controls="question5">Q: Is this really the first drone raceway?</a>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="/#question5" aria-expanded="true" aria-controls="question5">Q: Is this really the first drone raceway?</a>
           </h4>
         </div>
         <div id="question5" class="panel-collapse collapse">
@@ -373,7 +373,7 @@
       <div class="panel panel-default ">
         <div class="panel-heading" role="tab">
           <h4 class="panel-title">
-            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#question6" aria-expanded="true" aria-controls="question6">Q: Can I bring my own racing quad?</a>
+            <a role="button" data-toggle="collapse" data-parent="#accordion" href="/#question6" aria-expanded="true" aria-controls="question6">Q: Can I bring my own racing quad?</a>
           </h4>
         </div>
         <div id="question6" class="panel-collapse collapse">
@@ -395,7 +395,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="assets/js/main.js"></script>
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 
 <!-- Video modal trigger -->
 <script type="text/javascript">
