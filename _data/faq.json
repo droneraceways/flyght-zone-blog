@@ -1,33 +1,40 @@
 {
-  "questions": [
-
+  "questions":
+  [
     {
+      "id": 1,
       "question": "When do you open?",
       "answer": "<p>We don't have a specific date, but we're shooting for early 2017.</p>"
     },
     {
+      "id": 2,
       "question": "Where are you located?",
       "answer": "<p>We're looking for the right location in the Greater Chattanooga Area. If you know the owner of a vacant warehouse and are able to introduce us, get in touch!</p>"
     },
     {
+      "id": 3,
       "question": "How long is each race?",
       "answer": "<p>The format will be similar to a stand-alone go-kart raceway. Each race will have about 8 competing racers doing multiple laps, with the races finishing somewhere around 3 minutes in total.</p>"
     },
     {
+      "id": 4,
       "question": "What will the admission price be?",
       "answer": "<p>Admission options will vary, but basically it will likely be $60 per person for first-time visits, which <strong>will include hands-on flight training and 3 races</strong>. Single race admissions will float around $15. There will be various discount, bulk, and coupon opportunities available.</p>"
     },
     {
+      "id": 5,
       "question": "Do I need ro register with the FAA?",
       "answer": "<p>No, FAA regulations do not affect our patrons while using our drones inside our enclosed raceway.</p><p>If you plan to purchase and use your own drone outdoors, then you must register with the FAA <a href='https://registermyuas.faa.gov/' target='_blank'>here</a>.</p>"
     },
     {
+      "id": 6,
       "question": "Is this really the first drone raceway?",
       "answer": "<p>We think so. We’ve looked, and so far each one we’ve seen has been temporary events, or dedicated courses for DIY hobbyists with their own gear and experience. This is the first of it’s kind to cater specifically to non-hobbyists.</p>"
     },
     {
+      "id": 7,
       "question": "Can I bring my own racing quad?",
       "answer": "<p>Yes, but not initially. Early on, we won’t be able to accommodate BYOD (Bring Your Own Drone). BUT, we do plan to host league events and competitions in the future.</p>"
     }
-      ]
+  ]
 }
