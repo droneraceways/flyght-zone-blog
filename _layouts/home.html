@@ -295,6 +295,27 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 
+<script type="text/javascript">
+// display small top bar CTA
+$(function() {
+  setTimeout(function () {
+      $('.smart-bar').css({"top": "0"});
+      $('.navbar-custom.navbar-fixed-top').css({"top": "60px"});
+      $('.intro').css({"padding-top": "140px"});
+  }, 2000);
+});
+
+$('.smart-bar').on('close.bs.alert', function () {
+  $('.navbar-custom.navbar-fixed-top').css({"top": "0"});
+  $('.intro').css({"padding-top": "80px"});
+});
+
+$('.smart-bar a').on('click', function(event) {
+    $(this).parent().alert('close');
+});
+
+</script>
+
 <!-- Video modal trigger -->
 <script type="text/javascript">
 (function($) {
