@@ -33,9 +33,6 @@ section {
 	section {
 		padding: 75px 0;
 	}
-	.modal section {
-		padding: 20px 0;
-	}
 	ul.banner-social-buttons li {
 		display: block;
 		margin-bottom: 20px;
@@ -512,9 +509,39 @@ blockquote {
 #mc_embed_signup {
 	margin-bottom: 35px;
 }
-.modal section {
-	padding: 40px 0;
+
+.modal- {
+	&backdrop.in {
+	    filter: alpha(opacity=7);
+	    opacity: 0.7;
+	}
+	&content {
+	    background: none;
+	    border: 0;
+	    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+	    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+	}
+	&body {
+	    padding: 0px;
+	}
+	&header {
+	    padding-right: 15px;
+	    text-align: right;
+	}
+	&header, .modal-footer {
+	    border: 0;
+	}
+	&header .close {
+	    float: none;
+	    margin: 0;
+	    font-size: 36px;
+	    color: #fff;
+	    font-weight: 300;
+	    text-shadow: none;
+	    opacity: 1;
+	}
 }
+
 input.form-control {
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 	border-radius: 0 !important;
