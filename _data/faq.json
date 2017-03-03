@@ -4,7 +4,7 @@
     {
       "id": 1,
       "question": "When do you open?",
-      "answer": "<p>We don't have a specific date, but we're shooting for early 2017.</p>"
+      "answer": "<p>We don't have a specific date, but we're shooting for 2017.</p>"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
     {
       "id": 3,
       "question": "How long is each race?",
-      "answer": "<p>The format will be similar to a stand-alone go-kart raceway. Each race will have about 8 competing racers doing multiple laps, with the races finishing somewhere around 3 minutes in total.</p>"
+      "answer": "<p>The format will be similar to a stand-alone go-kart raceway. Each race will have 4 - 8 competing racers doing multiple laps, with the races finishing somewhere around 3 minutes in total.</p>"
     },
     {
       "id": 4,
@@ -23,7 +23,7 @@
     },
     {
       "id": 5,
-      "question": "Do I need ro register with the FAA?",
+      "question": "Do I need to register with the FAA?",
       "answer": "<p>No, FAA regulations do not affect our patrons while using our drones inside our enclosed raceway.</p><p>If you plan to purchase and use your own drone outdoors, then you must register with the FAA <a href='https://registermyuas.faa.gov/' target='_blank'>here</a>.</p>"
     },
     {
