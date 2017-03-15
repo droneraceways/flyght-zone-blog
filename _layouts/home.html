@@ -63,6 +63,23 @@
   </div>
 </div>
 
+<section id="video-gallery" class="bg-primary">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <h1>See other's videos</h2>
+        <div id="slick-carousel-videos" class="">
+          {% for video in site.data.other-videos.videos %}
+          <div>
+            <a href="/#" class="btn btn-default btn-lg" data-toggle="modal" data-target=".drone-race-video" data-src="https://www.youtube-nocookie.com/embed/{{ video.ytid }}"><img src="https://i3.ytimg.com/vi/{{ video.ytid }}/0.jpg" class="img-responsive" style="padding: 4px;" alt=""></a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- About Section -->
 <section id="about" class="bg-dark">
   <div class="container">
@@ -283,5 +300,34 @@
 })(jQuery); // End of use strict
 </script>
 
+<script type="text/javascript">
+$(document).ready(function(){
+  $('#slick-carousel-videos').slick({
+    // centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
+</script>
 </body>
 </html>
