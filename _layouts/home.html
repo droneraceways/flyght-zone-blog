@@ -17,30 +17,52 @@
 {% include main_nav.html %}
 
 <!-- Intro Header -->
-<header class="intro">
-  <div class="intro-body">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12">
-          <h2>THIS IS <strong>DRONE RACING</strong></h2>
-          <p>Immerse yourself in our fleet of first-person-view drones, coming soon to Chattanooga, TN.</p>
-          <p>
-            <a href="/#" class="btn btn-default btn-lg" data-toggle="modal" data-target=".drone-race-video" data-src="https://www.youtube-nocookie.com/embed/bOWkkoczEPQ">Play Video</a>
-            <a href="/#getit" class="page-scroll btn btn-default btn-lg">Keep me in the loop</a>
-          </p>
-          <div class="container-fluid">
-            <div class="row text-center">
-              <div class="col-md-8 col-md-offset-2">
-                <img src="{{ '/assets/img/equipment-feature.png' | relative_url }}" class="img-responsive img-centered" alt="">
-              </div>
-            </div>
+<header class="bg-dark">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <h1>THIS IS <strong>DRONE RACING</strong></h1>
+        <p>We have been working very hard to create an experience you won't forget.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 col-lg-7 col-lg-offset-0">
+        <div class="embed-responsive embed-responsive-16by9">
+		      <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/LriAK0RVRWU?autoplay=0&rel=0&fs=1&showinfo=0&modestbranding=1" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+		    </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 col-lg-5 col-lg-offset-0">
+        <div class="list-box">
+          <div class="list-box-icon">
+            <span aria-hidden="true" class="fa fa-rocket"></span>
           </div>
-
-          <div class="pull-right"><span class="small">Image courtesy of <a href="http://www.catalystmachineworks.com/" target="_blank">Catalyst Machineworks</a> and <a href="http://fatshark.com" target="_blank">Fatshark</a> </span></div>
+          <h3>Hands-on Flying</h3>
+          <div class="list-box-description">
+            Get hands-on with our fleet. Fly our drones through our mind-blowing, lit up gates.
+          </div>
+        </div>
+        <div class="list-box">
+          <div class="list-box-icon">
+            <span aria-hidden="true" class="glyphicon glyphicon-sunglasses"></span>
+          </div>
+          <h3>First-person-view</h3>
+          <div class="list-box-description">
+            Strap on a headset and race your friends with our fleet of first-person-view drones!
+          </div>
+        </div>
+        <div class="list-box">
+          <div class="list-box-icon">
+            <span aria-hidden="true" class="fa fa-map-marker"></span>
+          </div>
+          <h3>Chatttanooga</h3>
+          <div class="list-box-description">
+            Get the word out, we're going to open our first location in Chattanooga, TN.
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <div class="backstretch"></div>
 </header>
 
 <!-- Video modal -->
