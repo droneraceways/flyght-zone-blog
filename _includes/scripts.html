@@ -13,13 +13,15 @@ $(function() {
   setTimeout(function () {
       $('.smart-bar').css({"top": "0"});
       $('.navbar-custom.navbar-fixed-top').css({"top": "60px"});
-      $('.intro').css({"padding-top": "140px"});
+      $('header').css({"margin-top": "140px"});
+      $('.backstretch').css({"margin-top": "140px"});
   }, 2000);
 });
 
 $('.smart-bar').on('close.bs.alert', function () {
-  $('.navbar-custom.navbar-fixed-top').css({"top": "0"});
-  $('.intro').css({"padding-top": "80px"});
+  $('.navbar-custom.navbar-fixed-top').css({"top": ""});
+  $('header').css({"margin-top": ""});
+  $('.backstretch').css({"margin-top": ""});
 });
 
 $('.smart-bar a').on('click', function(event) {
