@@ -30,7 +30,15 @@ ul {
 section {
 	padding: 100px 0;
 }
+@media(max-width: 1199px) {
+	header .backstretch {
+		padding: 640px 0;
+	}
+}
 @media(max-width: 767px) {
+	header .backstretch {
+		padding: 640px 0;
+	}
 	section {
 		padding: 75px 0;
 	}
@@ -117,17 +125,6 @@ hr {
 	}
 	.email.form-control {
 		width: 300px;
-	}
-	.intro .intro-body {
-		.brand-heading {
-			font-size: 100px;
-		}
-		.brand {
-			margin-bottom: 35px;
-		}
-		.intro-text {
-			font-size: 26px;
-		}
 	}
 }
 p {
@@ -329,26 +326,56 @@ a {
 		}
 	}
 }
-.intro {
+header {
+	padding: 100px 0;
 	display: table;
 	width: 100%;
 	height: auto;
-	padding-top: 80px;
+	margin-top: 80px;
 	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
-	transition: padding-top 0.5s ease-in-out, padding 0.5s ease-in-out;
-	text-align: center;
-	background-size: cover;
-	.intro-body {
-		display: table-cell;
-		vertical-align: middle;
-		.brand-heading {
-			font-size: 40px;
+	transition: margin-top 0.5s ease-in-out, margin 0.5s ease-in-out;
+	&.bg-dark {
+		background-color: transparent;
+	}
+	.backstretch {
+		background: url(../img/pilots.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		margin-top: 80px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		z-index: -9999999;
+		width: 100%;
+		height: 100%;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: top 0.5s ease-in-out, margin 0.5s ease-in-out;
+	}
+	.list-box {
+		margin-top: 30px;
+		padding-left: 15px;
+		overflow: hidden;
+		&:first-child {
+			margin-top: 0;
 		}
-		.brand {
-			margin-bottom: 25px;
+		&-icon {
+			float: left;
+		    font-size: 58px;
+		    color: #fff;
+		    line-height: 58px;
+		    text-align: center;
 		}
-		.intro-text {
-			font-size: 18px;
+		h3 {
+			float: right;
+			width: 82%;
+			margin-top: 0;
+			color: #fff;
+		}
+		&-description {
+			float: right;
+			width: 82%;
+			opacity: 0.8;
 		}
 	}
 }
