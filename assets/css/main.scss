@@ -10,13 +10,8 @@
 .img-centered {
 	margin: 0 auto;
 }
-ul {
-	&.banner-social-buttons {
+ul.banner-social-buttons {
 		margin-top: 0;
-	}
-	li label {
-		margin-left: 10px;
-		font-weight: normal;
 	}
 }
 @media(max-width: 1199px) {
@@ -27,9 +22,6 @@ ul {
 @media(max-width: 767px) {
 	header .backstretch {
 		padding: 640px 0;
-	}
-	section {
-		padding: 75px 0;
 	}
 	ul.banner-social-buttons li {
 		display: block;
@@ -48,20 +40,7 @@ ul {
 	background-color: $color_eminence_approx;
 	color: $white;
 }
-@media(min-width: 481px) {
-	h1 {
-		font-size: 52px;
-	}
-	h2 {
-		font-size: 50px;
-	}
-}
 hr {
-	max-width: 100px;
-	border-top: 1px solid $white;
-	border-bottom: 1px solid $white;
-	height: 2px;
-	margin: 15px auto;
 	&.left {
 		margin: 15px auto 15px 0;
 	}
@@ -74,8 +53,6 @@ hr {
 }
 @media(min-width: 768px) {
 	hr {
-		max-width: 200px;
-		margin: 20px auto;
 		&.left {
 			margin: 20px auto 20px 0;
 		}
