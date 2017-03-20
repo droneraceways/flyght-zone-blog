@@ -376,25 +376,12 @@ $('.smart-bar a').on('click', function(event) {
 $(document).ready(function(){
   $('.slick-carousel-videos').slick({
     centerMode: true,
+    centerPadding: '40px',
     slidesToShow: 3,
     responsive: [
       {
-        breakpoint: 768,
-        settings: {
-          arrows: true,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
         breakpoint: 480,
-        settings: {
-          arrows: false,
-          centerMode: true,
-          centerPadding: '40px',
-          slidesToShow: 1
-        }
+        settings: "unslick"
       }
     ]
   });
