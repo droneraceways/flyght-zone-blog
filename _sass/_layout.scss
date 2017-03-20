@@ -1,5 +1,5 @@
 .header {
-	padding: 100px 0;
+	padding: 10px 0 60px;
 	display: table;
 	width: 100%;
 	height: auto;
@@ -128,7 +128,6 @@
 .smart-bar {
 	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 	border-radius: 0;
-	padding-top: 10px;
 	width: 100%;
 	height: 60px;
 	position: fixed;
