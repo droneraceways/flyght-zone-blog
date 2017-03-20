@@ -320,6 +320,38 @@
 
 {% include scripts.html %}
 
+<script type="text/javascript">
+// display small top bar CTA
+$(function() {
+  setTimeout(function () {
+      $('.smart-bar').css({"top": "0"});
+      $('.navbar-custom.navbar-fixed-top').css({"top": "60px"});
+      $('header').css({"margin-top": "140px"});
+      $('.backstretch').css({"margin-top": "140px"});
+  }, 2000);
+});
+
+$('.smart-bar').on('close.bs.alert', function () {
+  $('.navbar-custom.navbar-fixed-top').css({"top": ""});
+  $('header').css({"margin-top": ""});
+  $('.backstretch').css({"margin-top": ""});
+});
+
+$('.smart-bar a').on('click', function(event) {
+    $(this).parent().alert('close');
+});
+
+</script>
+
+<!-- SendinBlue validation -->
+<script type="text/javascript">
+    var sib_prefix = 'sib';
+</script>
+<script type='text/javascript' src='https://my.sendinblue.com/public/theme/version4/assets/js/src/subscribe-validate.js?v=1.0'></script>
+<script type='text/javascript'>
+    jQuery.noConflict(true);
+</script>
+
 <!-- Video modal trigger -->
 <script type="text/javascript">
 (function($) {
