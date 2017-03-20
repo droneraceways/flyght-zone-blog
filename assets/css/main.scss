@@ -10,6 +10,18 @@
 .img-centered {
 	margin: 0 auto;
 }
+
+.question {
+	padding-bottom: 60px;
+	&:before {
+	  display: block;
+	  content: " ";
+	  margin-top: -80px;
+	  height: 80px;
+	  visibility: hidden;
+	}
+}
+
 ul.banner-social-buttons {
 	margin-top: 0;
 }
