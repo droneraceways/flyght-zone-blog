@@ -68,23 +68,6 @@ hr {
 	width: 60%;
 	margin: 5px auto;
 }
-#mce-responses {
-	margin-bottom: 20px;
-	font-weight: 700;
-	.response {
-		padding: 10px;
-	}
-	#mce-error-response {
-		color: $color_apple_blossom_approx !important;
-		background-color: $color_vanilla_ice_approx !important;
-		border: $color_apple_blossom_approx solid 1px;
-	}
-	#mce-success-response {
-		color: $color_killarney_approx !important;
-		background-color: $color_willow_brook_approx !important;
-		border: $color_killarney_approx solid 1px;
-	}
-}
 .btn-primary {
 	color: $white;
 	background-color: $color_primary;
