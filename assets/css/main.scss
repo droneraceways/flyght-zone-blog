@@ -291,9 +291,11 @@ img::-moz-selection {
 	}
 	&header {
 	    padding-right: 15px;
+			padding-top: 30px;
 	    text-align: right;
 	}
-	&header, .modal-footer {
+	&header,
+	&footer {
 	    border: 0;
 	}
 	&header .close {
