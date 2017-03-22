@@ -62,7 +62,6 @@
       </div>
     </div>
   </div>
-  <div class="backstretch overlay"></div>
 </header>
 
 <section id="video-gallery" class="bg-primary">
@@ -327,14 +326,12 @@ $(function() {
       $('.smart-bar').css({"top": "0"});
       $('.navbar-custom.navbar-fixed-top').css({"top": "60px"});
       $('header').css({"margin-top": "140px"});
-      $('.backstretch').css({"margin-top": "140px"});
   }, 2000);
 });
 
 $('.smart-bar').on('close.bs.alert', function () {
   $('.navbar-custom.navbar-fixed-top').css({"top": ""});
   $('header').css({"margin-top": ""});
-  $('.backstretch').css({"margin-top": ""});
 });
 
 $('.smart-bar a').on('click', function(event) {
@@ -392,6 +389,12 @@ $(document).ready(function(){
 $('#carousel-testimonials').carousel({
   interval: 7000
 })
+</script>
+
+<script type="text/javascript">
+$(function() {
+  $('.header').backstretch("{{ 'assets/img/pilots.jpg' | relative_url }}");
+});
 </script>
 </body>
 </html>
