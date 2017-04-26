@@ -35,6 +35,14 @@ ul.banner-social-buttons {
 		}
 	}
 }
+@media(max-width: 1200px) {
+	.feature-list {
+		padding: 60px 0;
+	}
+	.header {
+		margin-bottom: -60px;
+	}
+}
 .bg-dark {
 	background-color: $color_log_cabin_approx;
 	color: $white;
